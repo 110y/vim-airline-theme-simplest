@@ -5,9 +5,9 @@ let g:airline#themes#simplest#palette.accents = {
       \ }
 
 " Normal Mode:
-let s:N1 = [ '#585858' , '#e4e4e4' , 240 , 254 ] " Mode
-let s:N2 = [ '#e4e4e4' , '#0087af' , 254 , 31  ] " Info
-let s:N3 = [ '#eeeeee' , '#005f87' , 255 , 235  ] " StatusLine
+let s:N1 = [ '#585858' , '#e4e4e4' , 255 , 235 ] " Mode
+let s:N2 = [ '#e4e4e4' , '#0087af' , 255 , 235 ] " Info
+let s:N3 = [ '#eeeeee' , '#005f87' , 255 , 235 ] " StatusLine
 
 
 let g:airline#themes#simplest#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
